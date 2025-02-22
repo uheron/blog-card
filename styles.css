@@ -1,3 +1,19 @@
+@font-face {
+  font-family: "Figtree";
+  src: url("/assets/fonts/Figtree-VariableFont_wght.ttf")
+    format("woff2-variations");
+  src: url("/assets/fonts/static/Figtree-Medium.ttf") format("woff2");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Figtree";
+  src: url("/assets/fonts/Figtree-VariableFont_wght.ttf")
+    format("woff2-variations");
+  src: url("/assets/fonts/static/Figtree-ExtraBold.ttf") format("woff2");
+  font-weight: 800;
+}
+
 body,
 html {
   background-color: #f4d04e;
@@ -24,22 +40,15 @@ html {
 }
 
 #tag {
-  width: 20%;
-  height: auto;
+  max-width: 20%;
+  height: 25px;
   background-color: #f4d04e;
-  padding-top: 2px;
-  padding-bottom: 2px;
-  padding-right: 4px;
-  padding-left: 4px;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 4px;
   margin-top: 16px;
-}
-
-#learning {
-  font-size: 14px;
+  padding: 0px 6px;
 }
 
 #footer {
@@ -52,4 +61,31 @@ html {
   width: 32px;
   height: 32px;
   margin-right: 12px;
+}
+
+#header {
+  font-family: "Figtree";
+  font-weight: 800;
+  font-size: 24px;
+}
+
+#paragraph {
+  font-family: "Figtree";
+  font-weight: 500;
+  font-size: 16px;
+  color: hsl(0, 0%, 42%);
+}
+
+#name,
+#learning {
+  font-family: "Figtree";
+  font-weight: 800;
+  font-size: 12px;
+}
+
+#date {
+  font-family: "Figtree";
+  font-weight: 500;
+  font-size: 12px;
+  color: hsl(0, 0%, 7%);
 }
